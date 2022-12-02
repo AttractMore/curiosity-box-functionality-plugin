@@ -6,7 +6,7 @@
  *
  * @wordpress-plugin
  * Plugin Name: Curiosity Box Functions
- * Version:     1.0
+ * Version:     1.1
  * Plugin URI:  https://attractmore.uk
  * Description: The collection of custom functions for the Curiosity Box website
  * Author:      AttractMore (Roger Knight)
@@ -34,3 +34,14 @@ function am_translate_cart_to_basket($translated, $untranslated, $domain) {
  }
  return $translated;
 }
+
+/**
+ * @snippet Change View cart to View basket in Minicart
+ * @source https://wordpress.stackexchange.com/questions/272130/how-can-i-override-these-woocommerce-widget-cart-button-functions
+ */
+
+function am_change_minicart_button_text() {
+  echo '<a href="' . esc_url(wc_get_cart_url()) . '" class="button wc-forward wp_element-button">' . esc_html__('View basket', 'woocommerce') . '</a>';
+}
+remove_action('woocommerce_widget_shopping_cart_buttons', 'woocommerce_widget_shopping_cart_button_view_cart', 10);
+add_action('woocommerce_widget_shopping_cart_buttons', 'am_change_minicart_button_text', 12);
