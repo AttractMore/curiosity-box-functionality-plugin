@@ -6,7 +6,7 @@
  *
  * @wordpress-plugin
  * Plugin Name: Curiosity Box Functions
- * Version:     1.3
+ * Version:     1.3.1
  * Plugin URI:  https://attractmore.uk
  * Description: The collection of custom functions for the Curiosity Box website
  * Author:      AttractMore (Roger Knight)
