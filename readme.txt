@@ -3,7 +3,7 @@ Contributors: roger knight
 License: GPLv3
 Tags: Woocommerce
 Tested up to: 6.1
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 Requires PHP: 5.6.20
 
 Various functions for Curiosity Box
