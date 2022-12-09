@@ -21,7 +21,7 @@
  *
  */
 
- add_action('wp_enqueue_scripts', 'civic-cookie-control');
+ add_action('wp_enqueue_scripts', 'civic_cookie_control');
 
  function civic_cookie_control() {
   wp_enqueue_script( 'civic-cookie-control-main', 'https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js', array(), '9.x', true );
