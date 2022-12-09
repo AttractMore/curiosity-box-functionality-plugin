@@ -6,7 +6,7 @@
  *
  * @wordpress-plugin
  * Plugin Name: Curiosity Box Functions
- * Version:     1.3.2
+ * Version:     1.3.3
  * Plugin URI:  https://github.com/AttractMore/curiosity-box-functionality-plugin
  * Description: The collection of custom functions for the Curiosity Box website
  * Author:      AttractMore (Roger Knight)
@@ -20,6 +20,13 @@
  * WC tested up to: 6.1
  *
  */
+
+ add_action('wp_enqueue_scripts', 'civic-cookie-control');
+
+ function civic_cookie_control() {
+  wp_enqueue_script( 'civic-cookie-control-main', 'https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js', array(), '9.x', true );
+  wp_enqueue_script( 'civic-cookie-control-config', '/wp-content/themes/flatsome-child/js/civic-cookie-control.js', array('civic-cookie-control-main'), '1.0', true );
+ }
 
  /**
  * @snippet Translate string Shopping Cart to Basket on Cart and Checkout

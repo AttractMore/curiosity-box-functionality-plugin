@@ -3,7 +3,7 @@ Contributors: roger knight
 License: GPLv3
 Tags: Woocommerce
 Tested up to: 6.1
-Stable tag: 1.3.2
+Stable tag: 1.3.3
 Requires PHP: 5.6.20
 
 Various functions for Curiosity Box
@@ -15,6 +15,10 @@ Various functions for Curiosity Box
 This plugin contains a variety of functions and filters required for the proper functioning of the Cusriosity Box website.
 
 == Changelog ==
+
+= 1.3.3 = 
+
+Incorporate Civic Cookie Control
 
 = 1.3 =
 
