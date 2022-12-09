@@ -25,7 +25,7 @@
 
  function civic_cookie_control() {
   wp_enqueue_script( 'civic-cookie-control-main', 'https://cc.cdn.civiccomputing.com/9/cookieControl-9.x.min.js', array(), '9.x', true );
-  wp_enqueue_script( 'civic-cookie-control-config', '/wp-content/themes/flatsome-child/js/civic-cookie-control.js', array('civic-cookie-control-main'), '1.0', true );
+  wp_enqueue_script( 'civic-cookie-control-config', plugin_dir_url( __FILE__ ) . '/js/civic-cookie-control.js', array('civic-cookie-control-main'), '1.0', true );
  }
 
  /**
