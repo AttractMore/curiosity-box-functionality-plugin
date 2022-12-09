@@ -130,6 +130,3 @@ var config = {
 };
 
 CookieControl.load(config);
-
-var config = {};
-CookieControl.load(config);
