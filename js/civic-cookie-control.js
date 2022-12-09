@@ -26,36 +26,36 @@ var config = {
     disableSiteScrolling: true,
   },
 
-  // text: {
-  //   title: "This site uses cookies",
-  //   intro:
-  //     "Some of these cookies are essential, while others help us to improve your experience by providing insights into how the site is being used.",
-  //   necessaryTitle: "Necessary Cookies",
-  //   necessaryDescription:
-  //     "Necessary cookies enable core functionality. The website cannot function properly without these cookies, and can only be disabled by changing your browser preferences.",
-  //   thirdPartyTitle: "Warning: Some cookies require your attention",
-  //   thirdPartyDescription:
-  //     "Consent for the following cookies could not be automatically revoked. Please follow the link(s) below to opt out manually.",
-  //   on: "On",
-  //   off: "Off",
-  //   accept: "Accept",
-  //   settings: "Cookie Preferences",
-  //   acceptRecommended: "Accept the use of all recommended cookies",
-  //   acceptSettings: "I Accept",
-  //   notifyTitle: "Your choice regarding cookies on this site",
-  //   notifyDescription:
-  //     "We use cookies to optimise site functionality and give you the best possible experience.",
-  //   closeLabel: "Close",
-  //   cornerButton: "Set cookie preferences.",
-  //   landmark: "Cookie preferences.",
-  //   showVendors: "Show vendors within this category",
-  //   thirdPartyCookies: "This vendor may set third party cookies.",
-  //   readMore: "Read more",
-  //   accessibilityAlert:
-  //     "This site uses cookies to store information. Press accesskey C to learn more about your options.",
-  //   rejectSettings: "Reject the use of all cookies",
-  //   reject: "Reject",
-  // },
+  text: {
+    title: "This site uses cookies",
+    intro:
+      "Some of these cookies are essential, while others help us to improve your experience by providing insights into how the site is being used.",
+    necessaryTitle: "Necessary Cookies",
+    necessaryDescription:
+      "Necessary cookies enable core functionality. The website cannot function properly without these cookies, and can only be disabled by changing your browser preferences.",
+    thirdPartyTitle: "Warning: Some cookies require your attention",
+    thirdPartyDescription:
+      "Consent for the following cookies could not be automatically revoked. Please follow the link(s) below to opt out manually.",
+    on: "On",
+    off: "Off",
+    accept: "Accept",
+    settings: "Cookie Preferences",
+    acceptRecommended: "Accept the use of all recommended cookies",
+    acceptSettings: "I Accept",
+    notifyTitle: "Your choice regarding cookies on this site",
+    notifyDescription:
+      "We use cookies to optimise site functionality and give you the best possible experience.",
+    closeLabel: "Close",
+    cornerButton: "Set cookie preferences.",
+    landmark: "Cookie preferences.",
+    showVendors: "Show vendors within this category",
+    thirdPartyCookies: "This vendor may set third party cookies.",
+    readMore: "Read more",
+    accessibilityAlert:
+      "This site uses cookies to store information. Press accesskey C to learn more about your options.",
+    rejectSettings: "Reject the use of all cookies",
+    reject: "Reject",
+  },
 
   necessaryCookies: [
     "__stripe_mid",
@@ -124,9 +124,9 @@ var config = {
     url: "/privacy-policy/",
     updated: "24/05/2018",
   },
-  sameSiteCookie: true,
-  sameSiteValue: "Strict",
-  notifyDismissButton: true,
+  // sameSiteCookie: true,
+  // sameSiteValue: "Strict",
+  // notifyDismissButton: true,
 };
 
 CookieControl.load(config);
