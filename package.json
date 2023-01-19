@@ -1,0 +1,25 @@
+{
+  "name": "curiosity-box-functionality-plugin",
+  "version": "1.0.0",
+  "description": "Functionality plugin for Curiosity Box",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AttractMore/curiosity-box-functionality-plugin.git"
+  },
+  "author": "AttractMore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AttractMore/curiosity-box-functionality-plugin/issues"
+  },
+  "homepage": "https://github.com/AttractMore/curiosity-box-functionality-plugin#readme",
+  "devDependencies": {
+    "prettier": "^2.8.3"
+  },
+  "dependencies": {
+    "@prettier/plugin-php": "^0.19.3"
+  }
+}
