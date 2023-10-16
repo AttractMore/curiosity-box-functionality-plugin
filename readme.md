@@ -4,7 +4,7 @@ Contributors: roger knight
 License: GPLv3
 Tags: Woocommerce
 Tested up to: 6.1
-Stable tag: 1.3.3
+Stable tag: 1.3.4
 Requires PHP: 5.6.20
 
 Various functions for Curiosity Box
@@ -16,6 +16,12 @@ Curiosity Box Functionality Plugin - a ratatouille of functions
 This plugin contains a variety of functions and filters required for the proper functioning of the Curiosity Box website.
 
 ## Changelog
+
+### 1.3.4
+
+Release date 16 OCtober 2023
+
+PLUGIN NOW REDUNDANT AS CODE MOVED BACK TO MAIN SITE
 
 ### 1.3.3
 
